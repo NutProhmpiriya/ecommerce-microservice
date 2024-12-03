@@ -1,0 +1,12 @@
+{
+  "name": "kong-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for Kong API Gateway",
+  "scripts": {
+    "token": "node generate-token.js",
+    "test": "node test-token.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+.env
+.env.local
+
+# Go workspace specific
+/vendor/
+/bin/
+/pkg/
+
+# MongoDB
+data/
+*.log
